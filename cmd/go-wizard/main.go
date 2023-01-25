@@ -49,7 +49,7 @@ func main() {
 		},
 		BoolFlags: map[string]bool{
 			"library": *library,
-			"debug": *debug,
+			"debug":   *debug,
 		},
 	}
 	// specifying the handlers

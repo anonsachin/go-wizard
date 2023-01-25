@@ -24,7 +24,7 @@ func (h *Handler) SetupFiles(dirName string, binaryDirName string, lib bool) err
 
 	if err != nil {
 		if h.Debug {
-			fmt.Printf("Unable to make base directory %s \n",dirName)
+			fmt.Printf("Unable to make base directory %s \n", dirName)
 		}
 		return err
 	}
